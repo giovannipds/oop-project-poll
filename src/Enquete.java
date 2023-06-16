@@ -10,7 +10,7 @@ import java.awt.*;
  *
  * @author giovannipds
  */
-public class Enquete extends Applet{
+public class Enquete extends Applet {
 
     public static void main(String[] args) {
         Enquete e = new Enquete();
@@ -18,15 +18,15 @@ public class Enquete extends Applet{
     }
 
     /**
-    * Inicia o Applet.
-    *
-    * @see java.applet.Applet#start()
-    */
+     * Inicia o Applet.
+     *
+     * @see java.applet.Applet#start()
+     */
     public void start() {
         super.start();
         // Interface que altera o estado do modelo
         TelaVotacao votacao = new TelaVotacao();
-        votacao.setLocation(5,5);
+        votacao.setLocation(5, 5);
     }
 
 }
