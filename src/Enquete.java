@@ -11,12 +11,12 @@ import java.awt.*;
  * @author giovannipds
  */
 public class Enquete extends Applet{
-    
+
     public static void main(String[] args) {
         Enquete e = new Enquete();
         e.start();
     }
-    
+
     /**
     * Inicia o Applet.
     *
@@ -28,5 +28,5 @@ public class Enquete extends Applet{
         TelaVotacao votacao = new TelaVotacao();
         votacao.setLocation(5,5);
     }
-    
+
 }
